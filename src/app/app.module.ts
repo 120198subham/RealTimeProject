@@ -15,7 +15,7 @@ import { SearchService } from './search.service';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [SearchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
